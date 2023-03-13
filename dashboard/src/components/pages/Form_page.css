@@ -1,0 +1,98 @@
+.topContainer{
+  display: flex;
+  flex-direction: column;
+}
+.form-heading{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+.heading{
+  color: #E9EDC9;
+  font-family: 'Quicksand', sans-serif;
+}
+form .user-details{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px 0 12px 0;
+  }
+
+  form .user-details .input-box{
+    margin-bottom: 15px;
+    width: calc(100% / 2 - 20px);
+  }
+
+  form .input-box span.details{
+    display: block;
+    font-weight: 500;
+    margin-bottom: 5px;
+  }
+
+  .user-details .input-box input{
+    height: 45px;
+    width: 100%;
+    outline: none;
+  font-size: 16px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+  }  
+  .user-details span{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1rem;
+    color: #ccc;
+  }
+
+  form .divaddButton{
+    height: 45px;
+    margin: 35px 0;
+    text-align: center;
+  }
+  form .addButton {
+    height: 100%;
+    width: 15%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background: linear-gradient(185deg, #000428, #004e92); */
+  }
+  form .addButton input:hover {
+   transform: scale(0.99); 
+   /* background: linear-gradient(-185deg, #000428, #004e92); */
+   }
+   form button .addButton  {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background: linear-gradient(185deg,#000428, #004e92); */
+    background-color: #f0a500;
+   }
+
+   .divaddButton .addButton{
+    background-color: #E9EDC9;
+    color: black;
+   }
+   .image{
+    position: absolute;
+    margin-top: 15%;
+    margin-left: 5%;
+    left: 50%;
+    width: 300px;
+   }
+   .findings{
+    font-family: 'Quicksand', sans-serif;
+   }
